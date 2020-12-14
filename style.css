@@ -1,9 +1,45 @@
 body {
-	background-color: lightgrey;
+	background-color: skyblue;
 }
 
 .card {
 	background-color: white; 
 	width: 200px; 
 	height: 300px;
+	overflow: scroll;
+	border-radius: 10px;
+	text-align: center;
+	
+	margin-left: auto;
+	margin-right: auto;
+}
+#ind{
+	font-weight: bold;
+}
+#int{
+	color: grey;
+}
+p{
+	font-size: 12px;
+}
+.image{
+	overflow: hidden;
+	-webkit-border-radius:50px;
+	-moz-border-radius:50px;
+	border-radius: 50px;
+	width: 50%;
+	height: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	bottom: -5;
+
+}
+button{
+	background: yellow;
+	color:white;
+	position: relative;
+	bottom: -75;
+	
 }
