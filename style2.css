@@ -12,6 +12,13 @@ body {
 	display: flex;
 }
 
+.close {
+	position: absolute;
+	top: 15;
+	right: 15;
+	opacity: .6;
+}
+
 .card {
 	background-color: white; 
 	width: 200px; 
