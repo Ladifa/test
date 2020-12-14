@@ -1,0 +1,77 @@
+body {
+	background-color: lightgrey;
+}
+
+.container {
+	width: 100%;
+}
+
+.row {
+	width: 100%;
+	position: relative;
+	display: flex;
+}
+
+.card {
+	background-color: white; 
+	width: 200px; 
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	border-radius: 20px;
+	padding-bottom: 5px;
+	box-shadow: 1px 3px 10px rgba(0, 0, 0, .4);
+}
+
+.centerCustom {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img {
+	border-radius: 80%;
+}
+
+.image {
+	margin-top: 25px;
+	position: relative;
+	margin-bottom: 20px;
+}
+
+.btn {
+	background-color: rgba(0, 0, 255, 0.4);
+	padding: 10px;
+	height: 20px;
+	width: 100px;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+.btn:hover {
+	cursor: pointer;
+	box-shadow: 0.5px 1.5px 5px rgba(0, 0, 0, .4);
+}
+
+.adresseInterface {
+	margin-bottom: 30px;
+}
+
+.adresse {
+	font-size: 14px;
+	font-family: consolas;
+	color: black;
+	line-height: 10px;
+	display: block;
+	text-align: center;
+}
+
+.adresse p:first-child {
+	font-weight: bold;
+}
+
+.adresse p:last-child {
+	font-size: 14px;
+	opacity: .5;
+}
